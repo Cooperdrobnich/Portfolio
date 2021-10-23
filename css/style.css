@@ -1,133 +1,100 @@
-main{
-    margin-bottom: 100px;
-    
-  }
-  
-  caption{
-    margin:5px 0px;
-  }
+/* Skip to content*/
+.skip {
+  position: absolute;
+  top: -50px;
+  color: #000000;
+}
 
-  /* If you decide to uncomment this code, comment it back for the Autograder. */
-  /* tr{
-    -webkit-transition: background-color 0.5s ease;
-    transition: background-color 0.5s ease;
-  } */
+.skip:focus {
+  position: absolute;
+  top: 0px;
+}
+
+html{
+  height: 100%;
+}
+
+/* Header and navbar */
+header {
+  background-image: linear-gradient(0deg, rgba(90, 13, 35, 0.1), rgba(246, 244, 250, 0.1));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+h1 {
+  color: #07000000;
+  font-family: "Roboto", "Andika";
+  font-size: 3.5em;
+  padding-top: 0.2em;
+  text-align: center;
+  justify-self: center;
+  margin: auto;
+}
+
+
+nav {
+  width: 100%;
+  padding-bottom: 0.4em;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav_item a {
+  color: rgb(128, 128, 128);
+
+  text-decoration: none;
+  font-family: "Roboto:wght@100", "Andika";
+  font-size: 1.5em;
   
-  /*END STARTER CODE*/
+}
+
+.nav_item a:hover {
+  transition: all .4s ease-in-out;
+  color: rgba(0, 0, 0);
+  border-bottom: 2px solid #333;
+}
+
+#current {
+  color: rgba(0, 0, 0);
+  border-bottom: 2px solid #333;
+}
+
+
+main {
+  background-color: #BCBEBE;
+  border-left: 10px solid #EAEAEA;
+  border-right: 10px solid #EAEAEA;
+  border-top: 10px solid #EAEAEA;
+}
+
+main p {
+  color: #333;
+}
+main{
+  color: rgb(3, 3, 3);
+  font-size: 100px;
+}
   
+  /*
   body{
-    color: #000000;
+    color: #faf9f9;
     font-size: 16px;
     font-family: 'Andika', sans-serif;
-    margin: 1.2em;
-    background-size: cover ;
-    background-position: center;
-    background-image: url(../images/pigeon-background.JPEG);
-    background-color: white;
-    background-repeat: no-repeat;
-    overflow: hidden;
-  
-    /*Req 1*/
-  }
-  
-  h1{
-    color: #C12258;
-    font-size: 32px;
-    text-align: center;
-    line-height: 2;
-    /*Req 2*/
-  }
-  
-  p{
-   padding-top: 15px; 
-  }
-  
-  a{
-   font-size: 16px;
-   color: #B21F50;
-   text-decoration-style: wavy;
-  }
-  
-  /*Req 5*/
-  /*Add selector and rule here*/
-  *:focus{
-  outline: 3px dashed #417243;
-  }
-  
-  
-  td{
-    text-align: center;
-    border-top: 2px solid #000000;
-    padding: 10px;
-  }
-  
-  tr:nth-child(2n+2) {
-  background-color: #D1D1D1;
-  }
-  
-  
-  tbody tr:hover {
-    background-color: rgb(126, 8, 37, 0.25);
+    background-image: linear-gradient(0deg, rgba(90, 13, 35, 0.1), rgba(246, 244, 250, 0.1));
+    margin: 0;
+    height: 100%;
     
-  }
+  } 
+  .head{
+    color:black;
+    font-size: 160px;
+    font-family: 'Andika', sans-serif;
+    background-image: linear-gradient(0deg, rgba(240, 90, 133, 0.2), rgba(246, 244, 250, 0.2));
   
-  .colhead{
-    color: #FFFFFF;
-    min-width: 125px;
-    padding: 10px;
-    text-transform: uppercase;
-    background-color: #7e0825;
-    text-align: center;
-    vertical-align: middle;
-  }
-  
-  .rowhead{
-  border-right: 2px solid #000000;
-  border-top: 2px solid #000000;
-  
-  }
-  
-  
-  
-  
-  table{
-      margin-left: auto;
-      margin-right: auto;
-      border: 5px solid #000000;
-      border-radius: 50px;
-      
-  
-  }
-  
-  /* I gave you the selector, but not the property-value pair. 
-  You can use Inspect Element or your editor to find selectors. */
-  thead tr:first-child th:first-child{
-    border-top-left-radius: 50px;
-    
-  }
-  
-  thead tr:first-child th:last-child {
-    border-top-right-radius: 50px;
-  
-  }
-  
-  /*Add selectors and rules here*/
-  tbody tr:last-child th:first-child{
-    border-bottom-left-radius: 50px;
-  }
-  
-  table tr:last-child td:last-child{
-    border-bottom-right-radius: 50px;
-  }
-  
-  footer{
-    min-height: 75px;
-    width:100%;
-    background:#000000;
-    text-align: center;
-    color: #FFFFFF;
-    position: fixed;
-    bottom: 0vh;
-    padding: 0px;
-    left: 0;
   }
