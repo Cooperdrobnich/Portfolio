@@ -8,47 +8,79 @@
 .skip:focus {
   position: absolute;
   top: 0px; 
+  z-index: 1;
 }
 
+p a{
+  text-decoration: underline;
+  color: #000000;
+}
+
+p a:visited{
+  text-decoration: underline;
+  color: #000000;
+}
+
+html, body{
+
+width: 100vw;
+height: 100vh;
 
 
+}
 /* Header and navbar */
 header {
-  background: rgba(236,227,225,0.75);
+  background: rgba(236,227,225,1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: 1em;
+  position: sticky;
+  top: 0px;
+  
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  
-  
-
-  
+  flex-wrap: wrap;
 }
-
-
-h1 {
-  color: #07000000;
-  font-family: "Roboto", "Andika";
-  font-size: 3.5em;
-  padding-top: 0.2em;
+h1{
+  
   text-align: center;
-  justify-self: center;
-  margin: auto;
+  justify-items: center;
+  font-size: 3em;
+  
+  
+}
+.cooper_link{
+  
+  display: block;
+  text-decoration: none;
 }
 
+
+h1 a{
+  text-decoration: none;
+}
+h1 a:visited{
+  color: none;
+  text-decoration: none;
+}
 
 nav {
   width: 100%;
-  padding-bottom: 0.4em;
+  padding-bottom: 0.6em;
 }
-
-nav ul {
+  
+nav ul{
   display: flex;
   justify-content: space-evenly;
 }
 
-.nav_item a {
+
+.nav_item{
+
+  margin-right: 1em;
+  margin-left: 1em;
+}
+.nav_item a{
   color: rgb(128, 128, 128);
 
   text-decoration: none;
@@ -57,7 +89,7 @@ nav ul {
   
 }
 
-.nav_item a:hover {
+.nav_item a:hover{
   transition: all .4s ease-in-out;
   color: rgba(0, 0, 0);
   border-bottom: 2px solid #333;
@@ -69,26 +101,145 @@ nav ul {
 }
 
 
-main {
-  background: rgba(236,227,225,0.5);
+.Menu-list {
+  font-size: 2.25rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: rotateX(0deg) rotateY(20deg); 
   
+}
+
+.Menu{
+  background: rgba(236,227,225,0);
+  padding: 0.5em;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  font-kerning: normal;
+  -webkit-font-kerning: normal;
+  -webkit-text-size-adjust: 100%;
+  transform-style: preserve-3d;
+  transform: perspective(60rem);
+}
+.Menu a{
+  text-decoration: none;
+  color:none;
+}
+.Menu a:visited, .Menu a::after{
+  text-decoration: none;
+  color:none;
+}
+
+.Menu-list-item {
+  position: relative;
+  color: transparent;
+  cursor: pointer;
+  
+ 
+  
+}
+
+
+  .Menu-list-item::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 49%;
+    left: -10%;
+    right: -10%;
+    height: 4px;
+    border-radius: 4px;
+    margin-top: -(4px / 2);
+    background: #FF2C75;
+    transform: scale(0);
+    transition: transform .8s cubic-bezier(.16,1.08,.38,.98);
+    z-index: 1;
+  }
+
+
+
+.Mask {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  color: #000000;
+  top: 0;
+  height: 49%;
+  transition: all .8s cubic-bezier(.16,1.08,.38,.98);
+  
+}
+ .Mask span { 
+   display: block; 
+  }
+
+.Mask + .Mask {
+  top: 48.9%;
+  height: 51.1%;
+}
+  .Mask + .Mask span { 
+    transform: translateY(-49%); 
+  }
+
+.Menu-list-item:hover .Mask, .Menu-list-item:active .Mask{
+   color: #000000;
+   transform: skewX(19.2deg) translateX(8px);
+   
+   }
+ 
+   .Menu-list-item:hover .Mask + .Mask, .Menu-list-item:active .Mask + .Mask{
+    transform: skewX(19.2deg) translateX(8px);
+    
+   }
+
+   .Menu-list-item:hover::before, .Menu-list-item:active::before{
+    transform: scale(1);
+    
+   }
+   
+
+
+
+
+
+
+
+
+
+
+
+/* Main */
+main {
+  background: rgba(236,227,225,0.6);
+  color: rgb(3, 3, 3);
+  font-size: 3em;
+  width: 100%;
+  left: 0;
+  margin: auto;
+  padding: 1em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 
 }
 
 main p {
   color: #333;
 }
-main{
-  color: rgb(3, 3, 3);
-  font-size: 3em;
- 
-  
-}
+
+/* Body */
+
+
+
 /* Footer */
 footer {
   display: flex;
+  flex-flow: row nowrap;
+  justify-items: flex-start;
   width:100%;
-  background-image:linear-gradient(0deg, rgba(90, 13, 35, 0.25), rgba(246, 244, 250, 0.25));
   color: #000000;
   text-align: center;
   min-height: 3em;
@@ -96,13 +247,14 @@ footer {
   left: 0;
   bottom: 0vh;
   padding: 0px;
-  background: rgba(236,227,225,0.75);
-  
+  background: rgba(236,227,225,1);
+  font-size: 2em;
 }
 
 footer p {
     margin: auto;
 }
+
 
   /*
   body{
