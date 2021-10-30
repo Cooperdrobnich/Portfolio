@@ -123,7 +123,7 @@ nav ul{
 
 
 .Menu-list {
-  font-size: 2.25rem;
+  font-size: 3rem;
   line-height: 1.2;
   text-transform: uppercase;
   text-align: center;
@@ -327,3 +327,35 @@ height: 6em;
 .credibly_block:hover, .credibly_block img:hover, .adams_block:hover{
   opacity: 0.65;
 }
+
+
+ .inner:hover {
+  
+  -moz-transform:translateY(4%);
+  -webkit-transform:translateY(4%);	
+  transform:translateY(4%);
+  -moz-animation: vertically 1s linear infinite alternate;
+  -webkit-animation: vertically 1s linear infinite alternate;
+  animation: vertically 1s linear infinite alternate;
+ }
+ 
+ @-moz-keyframes vertically {
+  0%   { -moz-transform: translateY(7%); }
+  100% { -moz-transform: translateY(0%); }
+ }
+ @-webkit-keyframes vertically {
+  0%   { -webkit-transform: translateY(7%); }
+  100% { -webkit-transform: translateY(0%); }
+ }
+ @keyframes vertically {
+  0%   { 
+  -moz-transform: translateY(7%); 
+  -webkit-transform: translateY(7%); 
+  transform: translateY(7%); 		
+  }
+  100% { 
+  -moz-transform: translateY(0%);
+  -webkit-transform: translateY(0%); 
+  transform: translateY(0%); 
+  }
+ }
