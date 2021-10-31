@@ -23,7 +23,7 @@ p a{
 
 p a:hover{
   text-decoration: underline;
-  color: #d87e77;
+  color: #be6e68;
 }
 
 html, body{
@@ -95,19 +95,19 @@ nav ul{
   color: #000000;
   text-decoration: none;
   font-family: "Roboto:wght@100", "Andika";
-  font-size: 1em;
+  font-size: 1.5em;
   
 }
 
 .nav_item a:hover{
   transition: all .4s ease-in-out;
-  color: #d87e77;
-  border-bottom: 2px solid #d87e77;
+  color: #945551;
+  border-bottom: 2px solid #945551;
 }
 
 #current {
-  color: #d87e77;
-  border-bottom: 2px solid #d87e77;
+  color: #945551;
+  border-bottom: 2px solid #945551;
 }
 
 
@@ -164,7 +164,7 @@ nav ul{
     height: 4px;
     border-radius: 4px;
     margin-top: -(4px / 2);
-    background: #d87e77;
+    background: #945551;
     transform: scale(0);
     transition: transform .8s cubic-bezier(.16,1.08,.38,.98);
     z-index: 1;
