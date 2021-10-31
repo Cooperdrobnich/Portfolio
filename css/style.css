@@ -269,6 +269,7 @@ margin:0;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(20, auto);
   grid-row-gap: 15px;
+  overflow: hidden;
   
 
 
@@ -280,11 +281,11 @@ margin:0;
   background-position: center; /* Parallax effect */
   background-size: cover; /* Parallax effect */
   background-repeat: no-repeat;
-  color: white;
-  vertical-align: middle;
+  min-height: 600px;
   height: 600px; /* Parallax effect */
   grid-column: 1 / -1;
   grid-row: 1 / span 7;
+  display: block;
   
 }
 .led_button{
@@ -315,12 +316,13 @@ margin:0;
   background-position: center; /* Parallax effect */
   background-size: cover; /* Parallax effect */
   background-repeat: no-repeat;
-  vertical-align: middle;
   max-width: 100%;
   height: 600px; /* Parallax effect */
   grid-column: 1 / -1;
   grid-row: 1 / span 7;
   image-rendering: optimizeQuality;
+  display: block;
+  min-height: 600px;
   
 }
 
@@ -353,6 +355,7 @@ margin:0;
   grid-row: 1 / span 7;
   overflow: hidden;
   z-index: 1;
+  min-height: 600px;
   
 }
 
