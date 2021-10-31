@@ -92,8 +92,7 @@ nav ul{
   margin-left: 1em;
 }
 .nav_item a{
-  color: rgb(128, 128, 128);
-
+  color: #000000;
   text-decoration: none;
   font-family: "Roboto:wght@100", "Andika";
   font-size: 1em;
@@ -102,13 +101,13 @@ nav ul{
 
 .nav_item a:hover{
   transition: all .4s ease-in-out;
-  color: rgba(0, 0, 0);
-  border-bottom: 2px solid #333;
+  color: #d87e77;
+  border-bottom: 2px solid #d87e77;
 }
 
 #current {
-  color: rgba(0, 0, 0);
-  border-bottom: 2px solid #333;
+  color: #d87e77;
+  border-bottom: 2px solid #d87e77;
 }
 
 
@@ -419,7 +418,7 @@ margin:0;
 
   grid-column: 1 / span 5;
   grid-row: 6 / 7;
-  background: rgba(236,227,225,1);
+  background: #d87e77;
   padding: 0.5em;
   border-radius: 25px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
@@ -433,12 +432,11 @@ margin:0;
 }
 
 .about_picture{
-  background-image: url(../images/blue-background.jpeg);
+  background-image: url(../images/back.jpg);
   background-attachment: fixed; /* Parallax effect */
   background-position: center; /* Parallax effect */
   background-size: cover; /* Parallax effect */
   background-repeat: no-repeat;
-  color: white;
   vertical-align: middle;
   height: 400px; /* Parallax effect */
   grid-column: 1 / -1;
@@ -472,4 +470,5 @@ margin:0;
   grid-row: 3 / span 7;
   overflow: hidden;
   z-index: 2;
+  
 }
