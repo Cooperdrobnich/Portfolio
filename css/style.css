@@ -13,7 +13,7 @@ html{
 .skip:focus {
   position: absolute;
   top: 0px; 
-  z-index: 1;
+  z-index: 5;
 }
 
 p a{
@@ -33,16 +33,8 @@ height: 100vh;
 
 
 }
-/* Header and navbar */
 
 
-.cooper_link{
-  
-  display: inline;
-  text-decoration: none;
-  white-space: nowrap;
-
-}
 .adams_link{
   display: inline;
   text-decoration: none;
@@ -77,7 +69,7 @@ nav {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  z-index: 50;
+  z-index: 4;
 }
   
 nav ul{
@@ -112,104 +104,17 @@ nav ul{
 
 
 .Menu-list {
-  font-size: 2rem;
+  font-size: 1.2em;
   line-height: 1.2;
   text-transform: uppercase;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  transform: rotateX(0deg) rotateY(20deg); 
+  
   
 }
 
-.Menu{
-  background: rgba(236,227,225,0);
-  padding: 0.2em;
-  font-style: normal;
-  font-weight: normal;
-  -webkit-font-smoothing: antialiased;
-  font-kerning: normal;
-  -webkit-font-kerning: normal;
-  -webkit-text-size-adjust: 100%;
-  transform-style: preserve-3d;
-  transform: perspective(60rem);
-}
-.Menu a{
-  text-decoration: none;
-  color:none;
-}
-.Menu a:visited, .Menu a::after{
-  text-decoration: none;
-  color:none;
-}
-
-.Menu-list-item {
-  position: relative;
-  color: transparent;
-  cursor: pointer;
-  
- 
-  
-}
-
-
-  .Menu-list-item::before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 49%;
-    left: -10%;
-    right: -10%;
-    height: 4px;
-    border-radius: 4px;
-    margin-top: -(4px / 2);
-    background: #945551;
-    transform: scale(0);
-    transition: transform .8s cubic-bezier(.16,1.08,.38,.98);
-    z-index: 1;
-  }
-
-
-
-.Mask {
-  display: block;
-  position: absolute;
-  overflow: hidden;
-  color: #000000;
-  top: 0;
-  height: 49%;
-  transition: all .8s cubic-bezier(.16,1.08,.38,.98);
-  
-}
- .Mask span { 
-   display: block; 
-  }
-
-.Mask + .Mask {
-  top: 48.9%;
-  height: 51.1%;
-}
-  .Mask + .Mask span { 
-    transform: translateY(-49%); 
-  }
-
-.Menu-list-item:hover .Mask, .Menu-list-item:active .Mask{
-   color: #000000;
-   transform: skewX(19.2deg) translateX(8px);
-   
-   }
- 
-   .Menu-list-item:hover .Mask + .Mask, .Menu-list-item:active .Mask + .Mask{
-    transform: skewX(19.2deg) translateX(8px);
-    
-   }
-
-   .Menu-list-item:hover::before, .Menu-list-item:active::before{
-    transform: scale(1);
-    
-   }
-  
 
 /* Main */
 main {
@@ -471,4 +376,8 @@ margin:0;
   overflow: hidden;
   z-index: 2;
   
+}
+
+h1{
+  position: relative;
 }
