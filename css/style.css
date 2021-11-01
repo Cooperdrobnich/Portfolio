@@ -313,7 +313,6 @@ margin:0;
 .fun_picture{
   background-image: url(../images/IMG-7309.JPG);
   background-attachment: fixed; /* Parallax effect */
-  background-position: center; /* Parallax effect */
   background-size: cover; /* Parallax effect */
   background-repeat: no-repeat;
   max-width: 100%;
