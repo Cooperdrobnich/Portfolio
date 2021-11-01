@@ -15,7 +15,7 @@ html{
 .skip:focus {
   position: absolute;
   top: 0px; 
-  z-index: 5;
+  z-index: 99;
   padding: 0.5em;
 }
 
@@ -257,9 +257,11 @@ border: 1px solid #000000;
  }
  
 
- @-webkit-keyframes vertically {
-  0%   { -webkit-transform: translateY(7%); }
-  100% { -webkit-transform: translateY(0%); }
+
+ 
+ @-moz-keyframes vertically {
+  0%   { -moz-transform: translateY(70%); }
+  100% { -moz-transform: translateY(0%); }
  }
  @keyframes vertically {
   0%   { 
@@ -560,6 +562,111 @@ margin:0;
     margin-left: 1.3em;
   }
   
+  .fun_picture{
+    background-image: url(../images/IMG-7309.JPG);
+    background-attachment: fixed; /* Parallax effect */
+    background-size: cover; /* Parallax effect */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px; /* Parallax effect */
+    grid-column: 1 / -1;
+    grid-row: 1 / span 7;
+    image-rendering: optimizeQuality;
+    display: block;
+    min-height: 600px;
+    
+  }
+  
+  .fun_button{
+  
+    grid-column: 2 / span 2;
+    grid-row: 6 / span 1;
+    margin-bottom: 1.3em;
+    background: #d87e77;
+    padding: 0.6em;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+    border-radius: 50px;
+    border: 3px solid #000000;
+    font-size: 0.4em;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    
+    
+  
+  
+  }
+
+  .credibly_picture{
+    background-image: url(../images/cred-header.jpeg);
+    background-color: rgb(255, 127, 80);
+    background-attachment: fixed; /* Parallax effect */
+    background-position:bottom; /* Parallax effect */
+    background-size:cover; /* Parallax effect */
+    background-repeat: no-repeat;
+    min-height: 600px;
+    height: 600px; /* Parallax effect */
+    grid-column: 1 / -1;
+    grid-row: 1 / span 7;
+    display: block;
+    width: 100%;
+    
+    
+  }
+  
+  .credibly_button{
+  
+    grid-column: 2 / span 2;
+    grid-row: 6 / span 1;
+    margin-bottom: 1.3em;
+    background: rgb(252, 97, 25);
+    padding: 0.6em;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+    border-radius: 50px;
+    border: 3px solid #000000;
+    font-size: 0.4em;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    
+    
+  
+  
+  }
+  
+  .projects_picture{
+    background-image: url(../images/AHSfrontentrance.jpeg);
+    background-attachment: fixed; /* Parallax effect */
+    background-position:center; /* Parallax effect */
+    background-size:cover; /* Parallax effect */
+    background-repeat: no-repeat;
+    min-height: 600px;
+    height: 600px; /* Parallax effect */
+    grid-column: 1 / -1;
+    grid-row: 1 / span 7;
+    display: block;
+    width: 100%;
+    
+  }
+  .led_button{
+  
+    grid-column: 2 / span 2;
+    grid-row: 6 / span 1;
+    margin-bottom: 1.3em;
+    background: #FFC42E;
+    padding: 0.6em;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+    border-radius: 50px;
+    border: 3px solid #000000;
+    font-size: 0.4em;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    
+  
+  }
+
+
 
 }
 
