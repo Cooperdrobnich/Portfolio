@@ -16,6 +16,7 @@ html{
   position: absolute;
   top: 0px; 
   z-index: 5;
+  padding: 0.5em;
 }
 
 p a{
@@ -139,10 +140,17 @@ main {
 }
 
 main p {
-  color: #333;
+  color: #000000;
   margin: 0.5em;
+  font-size: 1em;
 }
 
+h1 {
+  margin: 0.5em;
+  font-size: 1.5em;
+  color: #000000;
+  text-decoration: up;
+}
 
 /* Footer */
 footer {
@@ -392,9 +400,7 @@ margin:0;
   
 }
 
-h1{
-  position: relative;
-}
+
 
 @media screen and (min-width: 800px){
 h1{
