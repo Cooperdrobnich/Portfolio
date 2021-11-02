@@ -334,8 +334,8 @@ margin:0;
 
 .projects_picture{
   background-image: url(../images/AHSfrontentrance.jpeg);
-  background-attachment: fixed; /* Parallax effect */
   background-color: #1da8d3;
+  background-attachment: fixed; /* Parallax effect */
   background-position:center; /* Parallax effect */
   background-size:cover; /* Parallax effect */
   background-repeat: no-repeat;
@@ -375,8 +375,8 @@ margin:0;
 
 .fun_picture{
   background-image: url(../images/IMG-7309.JPG);
-  background-attachment: fixed; /* Parallax effect */
   background-color: #1da8d3;
+  background-attachment: fixed; /* Parallax effect */
   background-size: cover; /* Parallax effect */
   background-repeat: no-repeat;
   width: 100%;
