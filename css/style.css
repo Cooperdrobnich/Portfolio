@@ -135,6 +135,7 @@ main {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  align-content: center;
 
 }
 
@@ -457,16 +458,71 @@ margin:0;
   grid-row: 10 / span 2;
   justify-content: center;
   font-size: 0.9em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .info{
   grid-column: 3 / span 6;
   grid-row: 12 / span 2;
   font-size: 0.7em;
+  margin-bottom: 1em;
   
 }
 
 @media screen and (min-width: 767px){
+  .block_links{
+    margin-top:1em;
+    margin-bottom: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    }
+    
+    
+  .credibly_block{
+    display: flex;
+    color: rgb(255, 255, 255);
+    background: rgb(252, 97, 25);
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    flex-flow: row nowrap;
+    align-items: center;
+    border-radius: 20px;
+    margin-right:1em;
+     margin-bottom: 2em;
+    
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 53px 0 rgba(0, 0, 0, 0.19);
+    width:6em;
+    height: 6em;
+    border: 1px solid #000000;
+    }
+  
+      
+  .adams_block{
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: center;
+    color: #4A2511;
+    font-family: "solway", "serif";
+    font-size: 3em;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    margin-right: 0.30em;
+    margin-bottom: 2em;
+    max-height: 2em;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 53px 0 rgba(0, 0, 0, 0.19);
+    width: 2em;
+    height: 2em;
+    }
+
+
   .about_picture{
     background-image: url(../images/ann.jpeg);
     background-attachment: fixed; /* Parallax effect */
@@ -668,7 +724,71 @@ margin:0;
   
   }
 
-
+  .block_links{
+    margin-top:1em;
+    margin-bottom: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    }
+    
+    
+  .credibly_block{
+    display: flex;
+    color: rgb(255, 255, 255);
+    background: rgb(252, 97, 25);
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    flex-flow: row nowrap;
+    align-items: center;
+    border-radius: 20px;
+    margin-right:1em;
+     margin-bottom: 2em;
+    
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 53px 0 rgba(0, 0, 0, 0.19);
+    width:6em;
+    height: 6em;
+    border: 1px solid #000000;
+      }
+  
+      
+  .adams_block{
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: center;
+    color: #4A2511;
+    font-family: "solway", "serif";
+    font-size: 3em;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    margin-right: 0.30em;
+    margin-bottom: 2em;
+    max-height: 2em;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 53px 0 rgba(0, 0, 0, 0.19);
+    width: 2em;
+    height: 2em;
+    }
+    
+    .adams_block:hover{
+      color: #FFC42E;
+    }
+    
+    
+    .credibly_block img{
+      width: 35px;
+      height: 35px;
+      object-fit: contain;
+      
+    }
+    .credibly_block:hover, .credibly_block img:hover, .adams_block:hover{
+      opacity: 0.5;
+    }
 
 }
 
