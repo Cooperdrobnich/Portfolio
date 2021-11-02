@@ -335,7 +335,7 @@ margin:0;
 .projects_picture{
   background-image: url(../images/AHSfrontentrance.jpeg);
   background-attachment: fixed; /* Parallax effect */
-  background: #1da8d3;
+  background-color: #1da8d3;
   background-position:center; /* Parallax effect */
   background-size:cover; /* Parallax effect */
   background-repeat: no-repeat;
@@ -376,7 +376,7 @@ margin:0;
 .fun_picture{
   background-image: url(../images/IMG-7309.JPG);
   background-attachment: fixed; /* Parallax effect */
-  background: #1da8d3;
+  background-color: #1da8d3;
   background-size: cover; /* Parallax effect */
   background-repeat: no-repeat;
   width: 100%;
@@ -393,7 +393,7 @@ margin:0;
 
   grid-column: 1 / span 5;
   grid-row: 6 / span 1;
-  background: #d87e77;
+  background-color: #d87e77;
   padding: 0.6em;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
   border-radius: 50px;
@@ -411,7 +411,7 @@ margin:0;
 .about_picture{
   background-image: url(../images/ann.jpeg);
   background-attachment: fixed; /* Parallax effect */
-  background: rgb(128, 128, 128);
+  background-color: rgb(128, 128, 128);
   background-position: center; /* Parallax effect */
   background-size: cover; /* Parallax effect */
   background-repeat: no-repeat;
@@ -430,7 +430,7 @@ margin:0;
 
   grid-column: 1 / span 5;
   grid-row: 6 / span 1;
-  background: #a7ddee;
+  background-color: #a7ddee;
   padding: 0.6em;
   border-radius: 25px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
@@ -529,7 +529,7 @@ margin:0;
   .about_picture{
     background-image: url(../images/ann.jpeg);
     background-attachment: fixed; /* Parallax effect */
-    background: rgb(128, 128, 128);
+    background-color: rgb(128, 128, 128);
     background-position: center; /* Parallax effect */
     background-size: cover; /* Parallax effect */
     background-repeat: no-repeat;
@@ -582,7 +582,7 @@ margin:0;
   .about_picture{
     background-image: url(../images/ann.jpeg);
     background-attachment: fixed; /* Parallax effect */
-    background: rgb(128, 128, 128);
+    background-color: rgb(128, 128, 128);
     background-position: center; /* Parallax effect */
     background-size: cover; /* Parallax effect */
     background-repeat: no-repeat;
@@ -601,7 +601,7 @@ margin:0;
   
     grid-column: 2 / span 2;
     grid-row: 6 / span 1;
-    background: #a7ddee;
+    background-color: #a7ddee;
     padding: 0.6em;
     border-radius: 25px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
@@ -628,7 +628,7 @@ margin:0;
   .fun_picture{
     background-image: url(../images/IMG-7309.JPG);
     background-attachment: fixed; /* Parallax effect */
-    background: #1da8d3;
+    background-color: #1da8d3;
     background-size: cover; /* Parallax effect */
     background-repeat: no-repeat;
     width: 100%;
@@ -646,7 +646,7 @@ margin:0;
     grid-column: 2 / span 2;
     grid-row: 6 / span 1;
     margin-bottom: 1.3em;
-    background: #d87e77;
+    background-color: #d87e77;
     padding: 0.6em;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
     border-radius: 50px;
@@ -701,7 +701,7 @@ margin:0;
   .projects_picture{
     background-image: url(../images/AHSfrontentrance.jpeg);
     background-attachment: fixed; /* Parallax effect */
-    background: #1da8d3;
+    background-color: #1da8d3;
     background-position:center; /* Parallax effect */
     background-size:cover; /* Parallax effect */
     background-repeat: no-repeat;
