@@ -309,6 +309,7 @@ margin:0;
   grid-row: 1 / span 7;
   display: block;
   width: 100%;
+  border-bottom: 8px solid rgb(255, 127, 80);
   
   
 }
@@ -345,6 +346,7 @@ margin:0;
   grid-row: 1 / span 7;
   display: block;
   width: 100%;
+  border-bottom: 8px solid #FFC42E;
   
 }
 .led_button{
@@ -383,9 +385,9 @@ margin:0;
   height: 600px; /* Parallax effect */
   grid-column: 1 / -1;
   grid-row: 1 / span 7;
-  image-rendering: optimizeQuality;
   display: block;
   min-height: 600px;
+  border-bottom: 8px solid #d87e77;
   
 }
 
@@ -422,7 +424,7 @@ margin:0;
   overflow: hidden;
   z-index: 1;
   min-height: 600px;
-  
+  border-bottom: 8px solid #a7ddee;
   
 }
 
@@ -442,6 +444,7 @@ margin:0;
   color: #000000;
   z-index: 3;
   margin-bottom: 1em;
+  
 
 }
 .me{
@@ -452,7 +455,7 @@ margin:0;
   overflow: hidden;
   z-index: 2;
   margin-top: 2em;
-  
+  margin-bottom: 0.29em;
 }
 
 .container h1{
