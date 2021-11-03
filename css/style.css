@@ -299,12 +299,12 @@ margin:0;
 .credibly_picture{
   background-image: url(../images/cred-header.jpeg);
   background-color: rgb(255, 127, 80);
-  background-attachment: fixed; /* Parallax effect */
-  background-position:bottom; /* Parallax effect */
-  background-size:cover; /* Parallax effect */
+  background-attachment: fixed; 
+  background-position:bottom; 
+  background-size:cover; 
   background-repeat: no-repeat;
   min-height: 600px;
-  height: 600px; /* Parallax effect */
+  height: 600px; 
   grid-column: 1 / -1;
   grid-row: 1 / span 7;
   display: block;
@@ -336,7 +336,7 @@ margin:0;
 .projects_picture{
   background-image: url(../images/AHSfrontentrance.jpeg);
   background-color: #1da8d3;
-  background-attachment: fixed; /* Parallax effect */
+  
   background-position:center; /* Parallax effect */
   background-size:cover; /* Parallax effect */
   background-repeat: no-repeat;
