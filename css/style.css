@@ -651,7 +651,13 @@ input[type=submit]:hover {
   border: 1px solid #d87e77;
 }
 
-
+.credibly_info{
+  grid-column: 2 / span 7;
+  grid-row: 12 / span 2;
+  font-size: 0.4em;
+  margin-bottom: 2em;
+  justify-content: center;
+}
 
 
 
