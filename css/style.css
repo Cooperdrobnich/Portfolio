@@ -566,7 +566,9 @@ video {
   height: 250px;
   margin-bottom: -0.25em;
 }
-
+#page {
+  visibility: visible !important;
+  }
 .video1{
   grid-column: 2 / span 8;
   grid-row: 52 / span 4;
