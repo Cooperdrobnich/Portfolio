@@ -671,7 +671,13 @@ input[type=submit]:hover {
   margin-left: 1em;
 }
 
-
+.project_info{
+  grid-column: 2 / span 7;
+  grid-row: 12 / span 2;
+  font-size: 0.4em;
+  margin-bottom: 2em;
+  justify-content: center;
+}
 
 
 
