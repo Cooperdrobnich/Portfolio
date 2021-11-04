@@ -25,7 +25,7 @@ html{
 
 p a{
   text-decoration: none;
-  color: #d87e77;
+  color: #be6e68;
 }
 
 p a:hover{
@@ -423,7 +423,7 @@ margin:0;
   overflow: hidden;
   z-index: 1;
   min-height: 600px;
-  border-bottom: 8px solid #a7ddee;
+  border-bottom: 8px solid #d87e77;
   
 }
 
@@ -431,7 +431,7 @@ margin:0;
 
   grid-column: 1 / span 5;
   grid-row: 6 / span 1;
-  background-color: #a7ddee;
+  background-color: #d87e77;
   padding: 0.6em;
   border-radius: 25px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
@@ -598,6 +598,66 @@ video {
   grid-column: 2 / span 8;
   grid-row: 60 / span 2;
 }
+.about_info1{
+  grid-column: 2 / span 7;
+  grid-row: 12 / span 2;
+  font-size: 0.4em;
+  margin-bottom: 2em;
+  justify-content: center;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid rgb(0, 0, 0); 
+  border-radius: 10px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: #d87e77;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #d87e77;
+  opacity: 0.5;
+}
+#subject{
+  height: 200px;
+}
+
+
+/* Add a background color and some padding around the form */
+.contain {
+  border-radius: 5px;
+  background-color: rgba(236,227,225,1);
+  padding: 20px;
+  grid-column: 2 / span 7;
+  grid-row: 14 / span 6;
+  font-size: 0.4em;
+  margin-bottom: 2em;
+  justify-content: center;
+  border: 1px solid #d87e77;
+}
+
+
+
+
+
+
+
+
 
 
 @media screen and (min-width: 767px){
@@ -728,7 +788,7 @@ video {
   
     grid-column: 2 / span 2;
     grid-row: 6 / span 1;
-    background-color: #a7ddee;
+    background-color: #d87e77;
     padding: 0.6em;
     border-radius: 25px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
