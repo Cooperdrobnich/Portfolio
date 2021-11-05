@@ -565,12 +565,15 @@ img{
   justify-content: center;
   grid-column: 2 / span 8;
   grid-row: 50 / span 2;
+  
+  
 }
 
 video {
   width: 250px;
   height: 250px;
   margin-bottom: -0.25em;
+  justify-content: center;
 }
 #page {
   visibility: visible !important;
@@ -605,6 +608,8 @@ video {
   justify-content: center;
   grid-column: 2 / span 8;
   grid-row: 60 / span 2;
+  
+  
 }
 .about_info1{
   grid-column: 2 / span 7;
@@ -633,7 +638,6 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
-  
 }
 
 
@@ -1071,8 +1075,20 @@ input[type=submit]:hover {
       font-size: 0.4em;
       margin-bottom: 2em;
       justify-content: center;
-      grid-column: 2 / span 8;
+      grid-column: 4 / span 4;
       grid-row: 50 / span 2;
+      margin-left: 2.5em;
+      text-align: center;
+    }
+
+    .info3{
+      font-size: 0.4em;
+      margin-bottom: 2em;
+      justify-content: center;
+      grid-column: 4 / span 4;
+      grid-row: 60 / span 2;
+      margin-left: 2.5em;
+      text-align: center;
     }
 
 }
