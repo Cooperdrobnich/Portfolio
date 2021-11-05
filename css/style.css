@@ -239,6 +239,10 @@ border: 1px solid #000000;
   color: #FFC42E;
 }
 
+.container ul{
+  list-style-type:square;
+  margin-left: 1em;
+}
 
 .credibly_block img{
   width: 35px;
@@ -266,6 +270,7 @@ border: 1px solid #000000;
  
  @-moz-keyframes vertically {
   0%   { -moz-transform: translateY(70%); }
+  
   100% { -moz-transform: translateY(0%); }
  }
  @keyframes vertically {
@@ -1055,6 +1060,21 @@ input[type=submit]:hover {
     .nav_item{
       margin-right: 5em;
     }
+
+    video {
+      width: 500px;
+      height: 500px;
+      margin-bottom: -0.25em;
+    }
+
+    .info2{
+      font-size: 0.4em;
+      margin-bottom: 2em;
+      justify-content: center;
+      grid-column: 2 / span 8;
+      grid-row: 50 / span 2;
+    }
+
 }
 
 
