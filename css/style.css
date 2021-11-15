@@ -668,12 +668,13 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: rgba(236,227,225,1);
   padding: 20px;
-  grid-column: 2 / span 7;
+  grid-column: 2 / span 8;
   grid-row: 14 / span 6;
   font-size: 0.4em;
   margin-bottom: 2em;
   justify-content: center;
   border: 1px solid #d87e77;
+  
 }
 
 .credibly_info{
@@ -1106,6 +1107,12 @@ input[type=submit]:hover {
       margin-left: 2.5em;
       text-align: center;
       
+    }
+    .credibly_info{
+      grid-column: 2 / span 8;
+    }
+    .about_info1{
+      grid-column: 2 / span 8
     }
 
 }
