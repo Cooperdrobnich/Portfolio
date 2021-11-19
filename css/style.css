@@ -7,6 +7,7 @@ html{
 }
 * {
   margin: 0;
+  
 }
 
 .skip {
@@ -137,19 +138,21 @@ nav ul{
 /* Main */
 main {
   background: rgba(236,227,225,0.6);
-  color: rgb(3, 3, 3);
+  color: rgb(40, 37, 37);
   font-size: 3em;
   width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-content: center;
+  font-family: 'Times New Roman', Times, serif;
 
 }
 
 .home_body p {
-  color: #000000;
+  color: #352e2e;
   font-size: 1em;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -163,7 +166,7 @@ main {
 .home_body h1 {
   margin-top: 3em;
   font-size: 1.5em;
-  color: #000000;
+  
   display: flex; 
   
 }
@@ -209,8 +212,8 @@ margin-top: auto;
 margin-left: auto;
 margin-right:auto;
 margin-bottom: 2em;
-padding-right: 1.5em;
-padding-left: 1.5em;
+padding-right: 2em;
+padding-left: 2em;
 padding-top: 2em;
 padding-bottom: 2em;
 box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 53px 0 rgba(0, 0, 0, 0.19);
@@ -726,9 +729,103 @@ input[type=submit]:hover {
 @media screen and (min-width: 767px){
   .fun1{
     grid-column: 2 / span 4;
-    
+    margin-bottom: 2em;
+    margin-right: 1em;
   }
 
+  .fun2{
+    grid-column: 6 / span 4;
+    grid-row: 14 / span 4;
+    margin-bottom: 2em;
+    margin-left: 1em;
+
+  }
+  .fun3{
+    grid-column: 2 / span 4;
+    margin-bottom: 2em;
+    margin-right: 1em;
+  }
+
+  .fun4{
+    grid-column: 6 / span 4;
+    grid-row: 18 / span 9;
+    margin-bottom: 2em;
+    margin-left: 1em;
+
+  }
+  .fun5{
+    grid-column: 2 / span 4;
+    margin-bottom: 2em;
+    margin-right: 1em;
+  }
+
+  .fun6{
+    grid-column: 6 / span 4;
+    grid-row: 26 / span 10;
+    margin-bottom: 2em;
+    margin-left: 1em;
+
+  }
+
+  .fun7{
+    grid-column: 2 / span 4;
+    margin-bottom: 2em;
+    margin-right: 1em;
+  }
+
+  .fun8{
+    grid-column: 6 / span 4;
+    grid-row: 34 / span 10;
+    margin-bottom: 2em;
+    margin-left: 1em;
+
+  }
+  video {
+    width: 250px;
+    height: 250px;
+    margin-bottom: -0.25em;
+    justify-content: center;
+  }
+  #page {
+    visibility: visible !important;
+    }
+  .video1{
+    grid-column: 2 / span 4;
+    grid-row: 52 / span 4;
+    justify-self: center;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    border: 5px solid #d87e77;
+  }
+  
+
+  
+  .video2{
+    grid-column: 6 / span 4;
+    grid-row: 52 / span 4;
+    justify-self: center;
+    margin-bottom: 1em;
+    border: 5px solid #d87e77;
+    margin-left: 1em;
+  }
+  .info3{
+    font-size: 0.4em;
+    margin-bottom: 2em;
+    justify-content: center;
+    grid-column: 6 / span 4;
+    grid-row: 50 / span 2;
+    margin-left: 3em;
+   
+  }
+  .info2{
+    font-size: 0.4em;
+    margin-bottom: 2em;
+    justify-content: center;
+    grid-column: 2 / span 4;
+    grid-row: 50 / span 2;
+    margin-right: 1em;
+    
+  }
 
   .block_links{
     margin-top:1em;
@@ -1118,29 +1215,28 @@ nav {
     
 
     video {
-      width: 500px;
-      height: 500px;
+      width: 400px;
+      height: 400px;
       margin-bottom: -0.25em;
-    }
-
-    .info2{
-      font-size: 0.4em;
-      margin-bottom: 2em;
-      justify-content: center;
-      grid-column: 4 / span 4;
-      grid-row: 50 / span 2;
-      margin-left: 2.5em;
-      text-align: center;
+      
     }
 
     .info3{
-      font-size: 0.4em;
+      font-size: 0.5em;
+      margin-bottom: 2em;
+      justify-items: center;
+      grid-column: 6 / span 4;
+      grid-row: 50 / span 2;
+      margin-left: 5em;
+     
+    }
+    .info2{
+      font-size: 0.5em;
       margin-bottom: 2em;
       justify-content: center;
-      grid-column: 4 / span 4;
-      grid-row: 60 / span 2;
-      margin-left: 2.5em;
-      text-align: center;
+      grid-column: 2 / span 4;
+      grid-row: 50 / span 2;
+      margin-left: 2em;
       
     }
     .credibly_info{
@@ -1158,10 +1254,7 @@ nav {
       
     }
 
-  }
 
 
-
-
-
+}
 
