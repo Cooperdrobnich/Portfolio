@@ -130,9 +130,7 @@ nav ul{
   
   
 }
-.nav{
-  justify-content: space-between;
-}
+
 
 
 /* Main */
@@ -161,6 +159,7 @@ main {
   font-size: 0.5em;
   padding-left: 1em;
   padding-right: 1em;
+  margin-bottom: 2em;
 }
 
 .home_body h1 {
@@ -193,7 +192,7 @@ footer p {
 }
 
 .block_links{
-margin:2em;
+margin:1em;
 
 
 }
@@ -261,11 +260,11 @@ border: 1px solid #000000;
   
 }
 .credibly_block:hover, .credibly_block img:hover, .adams_block:hover{
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 
- .vertically:hover {
+.vertically:hover {
   
   -moz-transform:translateY(4%);
   -webkit-transform:translateY(4%);	
@@ -273,7 +272,7 @@ border: 1px solid #000000;
   -moz-animation: vertically 1s linear infinite alternate;
   -webkit-animation: vertically 1s linear infinite alternate;
   animation: vertically 1s linear infinite alternate;
-  transition-delay: 1s;
+  
  }
  
 
@@ -286,18 +285,35 @@ border: 1px solid #000000;
  }
  @keyframes vertically {
   0%   { 
-  -moz-transform: translateY(7%); 
-  -webkit-transform: translateY(7%); 
-  transform: translateY(7%); 	
-  
+  -moz-transform: translateY(0%); 
+  -webkit-transform: translateY(0%); 
+  transform: translateY(0%); 		
   }
   100% { 
-  -moz-transform: translateY(0%);
-  -webkit-transform: translateY(0%); 
-  transform: translateY(0%); 
-  
+  -moz-transform: translateY(-7%);
+  -webkit-transform: translateY(-7%); 
+  transform: translateY(-7%); 
   }
  }
+ 
+ .bounce-7:hover {
+  animation-name: bounce-7;
+  animation-timing-function: cubic-bezier(0.280, 0.840, 0.520, 1);
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.3s;
+  
+} 
+
+@keyframes bounce-7 {
+  0%   { transform: scale(1,1)      translateY(0); }
+  10%  { transform: scale(1.1,.9)   translateY(0); }
+  30%  { transform: scale(.9,1.1)   translateY(-50px); }
+  50%  { transform: scale(1.05,.95) translateY(0); }
+  57%  { transform: scale(1,1)      translateY(-10px); }
+  64%  { transform: scale(1,1)      translateY(0); }
+  100% { transform: scale(1,1)      translateY(0); }
+}
 
 #project main{
 border: 0;
