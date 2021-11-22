@@ -1243,7 +1243,7 @@ nav {
       justify-items: center;
       grid-column: 6 / span 4;
       grid-row: 50 / span 2;
-      margin-left: 5em;
+      margin-left: 6em;
      
     }
     .info2{
@@ -1252,7 +1252,7 @@ nav {
       justify-content: center;
       grid-column: 2 / span 4;
       grid-row: 50 / span 2;
-      margin-left: 2em;
+      margin-left: 2.5em;
       
     }
     .credibly_info{
@@ -1270,7 +1270,9 @@ nav {
       
     }
 
-
+    .info{
+      font-size: 0.5em;
+    }
 
 }
-
+}
