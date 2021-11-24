@@ -24,8 +24,8 @@
 .sketch_logo{
   width: 100%;
   grid-row: 14 / span 2;
-  grid-column: 2 / span 6;
-  margin-left: 2em;
+  grid-column: 2 / span 7;
+  margin-left: 1em;
   margin-bottom: 1em;
   margin-top: 1em;
   border: 2px solid #000000;
@@ -43,19 +43,22 @@
 .preliminary{
   grid-row: 24 / span 2;
   grid-column: 2 / span 7;
-  margin-left: 1em;
   margin-bottom: 1em;
   margin-top: 1em;
+  margin-left: 1em;
   border: 2px solid #000000;
   box-shadow: 0 3px 6px 0 rgba(0.1, 0.1, 0.1, 0.6);
 }
 .potential{
 
   grid-row:26 / span 2;
-  grid-column: 2 / span 8;
+  grid-column: 2 / span 7;
   font-size: 0.4em;
   margin-bottom: 1em;
   margin-top: 1em;
+  margin-left: 1em;
+  border: 2px solid #000000;
+  box-shadow: 0 3px 6px 0 rgba(0.1, 0.1, 0.1, 0.6);
 }
 .sign_location1{
   grid-row: 28 / span 2;
@@ -1003,10 +1006,7 @@ input[type=submit]:hover {
   }
 
   .block_links{
-    margin-top:1em;
-    margin-bottom: 1em;
-    padding-right: 1em;
-    padding-left: 1em;
+  
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -1025,7 +1025,7 @@ input[type=submit]:hover {
     align-items: center;
     border-radius: 20px;
     margin-right:1em;
-     margin-bottom: 2em;
+    margin-bottom: 2em;
     
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 53px 0 rgba(0, 0, 0, 0.19);
     width:6em;
