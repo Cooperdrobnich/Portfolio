@@ -1,8 +1,8 @@
 /* Skip to content*/
 
 .research{
-  grid-row:17 / span 2;
-  grid-column: 2 / span 3;
+  grid-row:22 / span 2;
+  grid-column: 2 / span 8;
   font-size: 0.4em;
   margin-bottom: 1em;
 
@@ -10,32 +10,110 @@
 
 }
 .prop{
-  grid-row:15 / span 2;
-  grid-column: 5 / span 5;
-  margin-left: 2em;
+  grid-row:20 / span 2;
+  grid-column: 2 / span 7;
+  background-size: cover;
   margin-bottom: 1em;
   margin-top: 1.3em;
+  margin-left: 1em;
   border: 2px solid #000000;
   box-shadow: 0 3px 6px 0 rgba(0.1, 0.1, 0.1, 0.6);
+  
+}
+
+.sketch_logo{
+  width: 100%;
+  grid-row: 14 / span 2;
+  grid-column: 2 / span 6;
+  margin-left: 2em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  border: 2px solid #000000;
+  box-shadow: 0 3px 6px 0 rgba(0.1, 0.1, 0.1, 0.6);
+  
 }
 .request{
 
-  grid-row:15 / span 2;
-  grid-column: 2 / span 3;
+  grid-row:16 / span 2;
+  grid-column: 2 / span 8;
   font-size: 0.4em;
   margin-bottom: 1em;
   margin-top: 1em;
 }
 .preliminary{
-  grid-row:17 / span 2;
-  grid-column: 5 / span 5;
-  margin-left: 2em;
+  grid-row: 24 / span 2;
+  grid-column: 2 / span 7;
+  margin-left: 1em;
   margin-bottom: 1em;
   margin-top: 1em;
   border: 2px solid #000000;
   box-shadow: 0 3px 6px 0 rgba(0.1, 0.1, 0.1, 0.6);
 }
+.potential{
 
+  grid-row:26 / span 2;
+  grid-column: 2 / span 8;
+  font-size: 0.4em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+.sign_location1{
+  grid-row: 28 / span 2;
+  grid-column: 2 / span 7;
+  font-size: 0.4em;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-left: 1em;
+  border: 2px solid #000000;
+  box-shadow: 0 3px 6px 0 rgba(0.1, 0.1, 0.1, 0.6);
+  text-align: center;
+}
+
+.sign_location2{
+  grid-row: 30 / span 2;
+  grid-column: 2 / span 7;
+  font-size: 0.4em;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-left: 1em;
+  border: 2px solid #000000;
+  box-shadow: 0 3px 6px 0 rgba(0.1, 0.1, 0.1, 0.6);
+  text-align: center;
+}
+.sign_location3{
+  grid-row: 32 / span 2;
+  grid-column: 2 / span 7;
+  font-size: 0.4em;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-left: 1em;
+  border: 2px solid #000000;
+  box-shadow: 0 3px 6px 0 rgba(0.1, 0.1, 0.1, 0.6);
+  text-align: center;
+}
+.sign_location4{
+  grid-row: 34 / span 2;
+  grid-column: 2 / span 7;
+  font-size: 0.4em;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-left: 1em;
+  border: 2px solid #000000;
+  box-shadow: 0 3px 6px 0 rgba(0.1, 0.1, 0.1, 0.6);
+  text-align: center;
+}
+
+.quote{
+  grid-row: 36 / span 2;
+  grid-column: 2 / span 7;
+  font-size: 0.4em;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-left: 1em;
+  border: 2px solid #000000;
+  box-shadow: 0 3px 6px 0 rgba(0.1, 0.1, 0.1, 0.6);
+  text-align: center;
+}
 .flip-card{
   perspective: 1000px;
   background-color: transparent;
@@ -996,7 +1074,7 @@ input[type=submit]:hover {
   
   .about_button{
   
-    grid-column: 1 / span 4;
+    grid-column: 2 / span 3;
     grid-row: 6 / span 1;
     background: #a7ddee;
     padding: 0.6em;
@@ -1021,6 +1099,15 @@ input[type=submit]:hover {
     z-index: 2;
     margin-left: 1em;
     
+  }
+  .fun_button{
+    grid-column: 2 / span 3;
+  }
+  .credibly_button{
+    grid-column: 2 / span 3;
+  }
+  .led_button{
+    grid-column: 2 / span 3;
   }
   
 
