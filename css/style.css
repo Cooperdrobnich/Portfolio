@@ -912,7 +912,7 @@ input[type=submit]:hover {
   .fun1, .fun2, .fun3, .fun4, .fun5, .fun6, .fun7, .fun8, .fun9{
     opacity: 0.7;
   }
-  .fun1:hover, .fun1:focus, .fun2:hover, .fun2:focus, .fun3:hover, .fun3:focus, .fun4:hover, .fun4:focus, .fun5:hover, .fun5:focus, .fun6:hover, .fun6:focus, .fun7:hover, .fun7:focus, .fun8:hover, .fun8:focus, .fun9:hover, .fun9:focus{
+  .fun1:hover , .fun1:focus, .fun2:hover, .fun2:focus, .fun3:hover, .fun3:focus, .fun4:hover, .fun4:focus, .fun5:hover, .fun5:focus, .fun6:hover, .fun6:focus, .fun7:hover, .fun7:focus, .fun8:hover, .fun8:focus, .fun9:hover, .fun9:focus{
     transition: 2s all;
     opacity: 1;
   }
@@ -921,6 +921,7 @@ input[type=submit]:hover {
     grid-column: 2 / span 4;
     margin-bottom: 2em;
     margin-right: 1em;
+    
   }
 
   .fun2{
