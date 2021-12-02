@@ -1546,7 +1546,7 @@ nav {
 }
 #project img {
   
-  box-shadow: 0 3px 6px 0 rgba(0.1, 0.1, 0.1, 0.6);
+  box-shadow: 1px 3px 6px 1px rgba(0.3, 0.3, 0.3, 0.6);
 }
 .request{
 
