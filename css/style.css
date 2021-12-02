@@ -879,6 +879,20 @@ input[type=submit]:hover {
     font-weight: bold;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
+
+  .flip-card:hover .flip-card-back{
+    transform: rotateX(0deg);
+
+  }
+  
+  .flip-card:hover .flip-card-front{
+    transform: rotateX(180deg);
+    
+  }
+
+
+
+
   .flip-card-front{
     position: absolute;
     font-weight: bold;
@@ -888,6 +902,9 @@ input[type=submit]:hover {
     backface-visibility: hidden;
     text-align: center;
     transform: rotateX(0deg);
+    z-index: 2;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
   }
   
   .flip-card-back{
@@ -898,12 +915,14 @@ input[type=submit]:hover {
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
     transform: rotateX(180deg);
-    
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
   }
   
   .credibly_button:hover > .flip-card, .credibly_button:focus > .flip-card, .fun_button:hover > .flip-card, .fun_button:focus > .flip-card, .led_button:hover > .flip-card, .led_button:focus > .flip-card, .about_button:hover > .flip-card, .about_button:focus > .flip-card  {
-    transform: rotateX(180deg);
-    
+    transform: rotateX(0deg);
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
   }
   
   .fun1, .fun2, .fun3, .fun4, .fun5, .fun6, .fun7, .fun8, .fun9{
