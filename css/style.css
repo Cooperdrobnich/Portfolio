@@ -893,12 +893,12 @@ input[type=submit]:hover {
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
     
   }
   
   .credibly_button:hover > .flip-card, .credibly_button:focus > .flip-card, .fun_button:hover > .flip-card, .fun_button:focus > .flip-card, .led_button:hover > .flip-card, .led_button:focus > .flip-card, .about_button:hover > .flip-card, .about_button:focus > .flip-card  {
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
     
   }
   
