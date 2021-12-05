@@ -7,7 +7,9 @@ function myFunction() {
 function showPage() {
   document.getElementById("loader").style.display = "none";
   document.getElementById(body).style.display = "block";
-}
-window.addEventListener("load", function(){
+  window.addEventListener("load", function(){
     document.getElementById("loader").style.display = "none";
 });
+}
+
+
