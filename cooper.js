@@ -1,8 +1,8 @@
 $(document).ready(function() {
 	
 	setTimeout(function(){
-		$('body').addClass('loaded');
-	}, 3000);
+		$("body").addClass('loaded');
+	}, 1000);
 	
 });
 
