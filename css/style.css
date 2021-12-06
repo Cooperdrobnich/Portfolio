@@ -1783,4 +1783,9 @@ nav {
     }
 
 }
+@media (prefers-reduced-motion) {
+  .vertically, .spin, .bounce-7 {
+    animation: none;
+  }
+}
 }
