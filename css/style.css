@@ -1805,5 +1805,10 @@ nav {
   .fun_picture, .about_picture, .projects_picture, .credibly_picture{
     background-attachment: initial;
   }
+  .flip-card, .flip-card-back, .flip-card-front{
+    transition: none;
+    transform: none;
+  }
+  
 }
 }
