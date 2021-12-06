@@ -1,3 +1,6 @@
+
+
+
 /* Loading screen Credit to "ihatetomatoes.net" */
 
 #loader-wrapper {
@@ -1786,6 +1789,21 @@ nav {
 @media (prefers-reduced-motion) {
   .vertically, .spin, .bounce-7 {
     animation: none;
+  }
+  
+  html{
+      scroll-behavior: auto; 
+  }
+
+  
+  .skip a{
+    -webkit-transition: initial;
+    transition: initial; 
+  }
+
+  
+  .fun_picture, .about_picture, .projects_picture, .credibly_picture{
+    background-attachment: initial;
   }
 }
 }
