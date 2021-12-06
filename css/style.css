@@ -1003,6 +1003,7 @@ input[type=submit]:hover {
 }
 
 
+
 @media screen and (min-width: 767px){
   
   .flip-card {
@@ -1046,7 +1047,7 @@ input[type=submit]:hover {
   }
   
   .flip-card-back{
-    
+    visibility: visible;
     font-weight: bold;
     width: 100%;
     height: 100%;
@@ -1787,8 +1788,10 @@ nav {
 
 }
 @media (prefers-reduced-motion) {
-  .vertically, .spin, .bounce-7 {
+  .vertically:hover, .spin, .bounce-7:hover {
     animation: none;
+    transition: none;
+    transform: none;
   }
   
   html{
@@ -1807,8 +1810,20 @@ nav {
   }
   .flip-card, .flip-card-back, .flip-card-front{
     transition: none;
-    transform: none;
+    
   }
+  .flip-card-back{
+    visibility: hidden;
+  }
+  .led_button:hover .flip-card-back, .led_button:focus .flip-card-back, .credibly_button:hover .flip-card-back, .credibly_button:focus .flip-card-back, .about_button:hover .flip-card-back, .about_button:focus .flip-card-back, .fun_button:hover .flip-card-back, .fun_button:focus .flip-card-back{
+    visibility: visible;
+  }
+   .loader-section, .loader-section.section-left, .loader-section.section-right, #loader, #loader-section{
+    transition: none;
+    transform: none;
+    display: none;
+  }
+  
   
 }
 }
