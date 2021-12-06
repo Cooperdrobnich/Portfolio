@@ -475,7 +475,7 @@ padding-right: 2em;
 padding-left: 2em;
 padding-top: 2em;
 padding-bottom: 2em;
-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 53px 0 rgba(0, 0, 0, 0.19);
+box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 16px 53px 0 rgba(0, 0, 0, 0.19);
 width:6em;
 height: 6em;
 border: 1px solid #000000;
@@ -497,7 +497,7 @@ border: 1px solid #000000;
   margin:auto;
   padding: 1em;
   max-height: 2em;
-  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 53px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 26px 0 rgba(0, 0, 0, 0.19);
   width: 2em;
   height: 2em;
   transition: 0s;
@@ -1191,7 +1191,7 @@ input[type=submit]:hover {
     margin-right:1em;
     margin-bottom: 2em;
     
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 53px 0 rgba(0, 0, 0, 0.19);
+    
     width:6em;
     height: 6em;
     border: 1px solid #000000;
@@ -1212,7 +1212,7 @@ input[type=submit]:hover {
     margin-right: 0.30em;
     margin-bottom: 2em;
     max-height: 2em;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 53px 0 rgba(0, 0, 0, 0.19);
+   
     width: 2em;
     height: 2em;
     }
@@ -1517,7 +1517,7 @@ nav {
     margin-right: 0.30em;
     margin-bottom: 2em;
     max-height: 2em;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 53px 0 rgba(0, 0, 0, 0.19);
+   
     width: 2em;
     height: 2em;
     }
