@@ -256,7 +256,7 @@ script{
   font-size: 0.4em;
   margin-bottom: 1em;
   margin-top: 1em;
- 
+  
 }
 .sign_location1{
   grid-row: 28 / span 2;
@@ -331,6 +331,7 @@ script{
   font-size: 0.4em;
   margin-bottom: 1em;
   margin-top: 2em;
+  
 }
 .result{
   grid-row: 45 / span 2;
@@ -351,7 +352,7 @@ script{
   grid-row: 49 / span 2;
   grid-column: 4 / span 4;
   font-size: 0.4em;
-  margin-bottom: 5em;
+  margin-bottom: 2em;
   
   z-index: 2;
 }
@@ -361,6 +362,14 @@ script{
   font-size: 0.4em;
   z-index: 1;
   margin-top: 2em;
+}
+.paper{
+  grid-row: 51 / span 2;
+  grid-column: 2 / span 8;
+  font-size: 0.4em;
+  margin-bottom: 2em;
+  
+  
 }
 
 .sign_day img, .sign_ground img, .sign_night img{
@@ -742,7 +751,7 @@ margin:0;
 
 .credibly_button{
 
-  grid-column: 1 / span 5;
+  grid-column: 1 / span 6;
   grid-row: 6 / span 1;
   background: rgb(252, 97, 25);
   padding: 0.6em;
@@ -776,7 +785,7 @@ margin:0;
 }
 .led_button{
 
-  grid-column: 1 / span 5;
+  grid-column: 1 / span 6;
   grid-row: 6 / 7;
   background: #FFC42E;
   padding: 0.6em;
@@ -818,7 +827,7 @@ margin:0;
 
 .fun_button{
 
-  grid-column: 1 / span 5;
+  grid-column: 1 / span 6;
   grid-row: 6 / span 1;
   background-color: rgb(156, 192, 255);
   padding: 0.6em;
@@ -854,7 +863,7 @@ margin:0;
 
 .about_button{
 
-  grid-column: 1 / span 5;
+  grid-column: 1 / span 6;
   grid-row: 6 / span 1;
   background-color: #d87e77;
   padding: 0.6em;
@@ -1389,7 +1398,7 @@ nav {
   grid-column: 2 / span 8
 }
 
-
+}
 @media screen and (min-width: 1000px){
 
   .about_picture{
@@ -1734,14 +1743,14 @@ nav {
 }
 .prop{
   grid-row:16 / span 2;
-  grid-column: 4 / span 6;
+  grid-column: 5 / span 5;
   background-size: cover;
   margin-bottom: 1em;
   margin-top: 2em;
   margin-left: 1em;
   border: none;
   box-shadow: none;
-  
+  visibility: visible;
 }
 
 .sketch_logo{
@@ -1759,7 +1768,7 @@ nav {
 .request{
 
   grid-row:16 / span 2;
-  grid-column: 2 / span 2;
+  grid-column: 2 / span 3;
   font-size: 0.4em;
   margin-bottom: 1em;
   margin-top: 3em;
@@ -1770,7 +1779,7 @@ nav {
   margin-left: 0em;
   border: none;
   box-shadow: none;
-  
+  visibility: visible;
 }
 .potential{
   grid-row: 26 / span 2;
@@ -1778,6 +1787,7 @@ nav {
   margin-left: 0em;
   border: none;
   box-shadow: none;
+  visibility: visible;
 }
 
 .locations{
@@ -1866,6 +1876,7 @@ nav {
   margin-bottom: 1em;
   margin-top: 2em;
   margin-left: 3em;
+  visibility: visible;
 }
 .result{
   grid-row: 45 / span 2;
@@ -1963,5 +1974,4 @@ nav {
     transition: none;
   }
   
-}
 }
