@@ -195,7 +195,10 @@ script{
 
 
 
-
+.project img {
+  
+  box-shadow: 1px 3px 6px 1px rgba(0.3, 0.3, 0.3, 0.6);
+}
 
 .research{
   grid-row:22 / span 2;
@@ -213,9 +216,6 @@ script{
   margin-bottom: 1em;
   margin-top: 1.3em;
   
-  border: 2px solid #000000;
-  box-shadow: 0 3px 6px 0 rgba(0.1, 0.1, 0.1, 0.6);
-  
 }
 
 .sketch_logo{
@@ -225,8 +225,7 @@ script{
   
   margin-bottom: 1em;
   margin-top: 1em;
-  border: 2px solid #000000;
-  box-shadow: 0 3px 6px 0 rgba(0.1, 0.1, 0.1, 0.6);
+  
   
 }
 .request{
@@ -243,8 +242,6 @@ script{
   margin-bottom: 1em;
   margin-top: 1em;
   
-  border: 2px solid #000000;
-  box-shadow: 0 3px 6px 0 rgba(0.1, 0.1, 0.1, 0.6);
 }
 .potential{
 
@@ -253,9 +250,7 @@ script{
   font-size: 0.4em;
   margin-bottom: 1em;
   margin-top: 1em;
-  
-  border: 2px solid #000000;
-  box-shadow: 0 3px 6px 0 rgba(0.1, 0.1, 0.1, 0.6);
+ 
 }
 .sign_location1{
   grid-row: 28 / span 2;
@@ -264,8 +259,6 @@ script{
   margin-bottom: 1em;
   margin-top: 2em;
   
-  border: 2px solid #000000;
-  box-shadow: 0 3px 6px 0 rgba(0.1, 0.1, 0.1, 0.6);
   text-align: center;
 }
 
@@ -276,8 +269,7 @@ script{
   margin-bottom: 1em;
   margin-top: 2em;
   
-  border: 2px solid #000000;
-  box-shadow: 0 3px 6px 0 rgba(0.1, 0.1, 0.1, 0.6);
+  
   text-align: center;
 }
 .sign_location3{
@@ -287,8 +279,7 @@ script{
   margin-bottom: 1em;
   margin-top: 2em;
   
-  border: 2px solid #000000;
-  box-shadow: 0 3px 6px 0 rgba(0.1, 0.1, 0.1, 0.6);
+  
   text-align: center;
 }
 .sign_location4{
@@ -298,13 +289,25 @@ script{
   margin-bottom: 1em;
   margin-top: 2em;
   
-  border: 2px solid #000000;
-  box-shadow: 0 3px 6px 0 rgba(0.1, 0.1, 0.1, 0.6);
   text-align: center;
 }
 .action_taken{
   grid-row: 36 / span 2;
   grid-column: 2 / span 8;
+  font-size: 0.4em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+.twitter_fundraise{
+  grid-row: 38 / span 2;
+  grid-column: 3 / span 7;
+  font-size: 0.4em;
+  margin-bottom: 1em;
+  margin-top: 1.2em;
+}
+.twitter_fundraise2{
+  grid-row: 39 / span 2;
+  grid-column: 5 / span 4;
   font-size: 0.4em;
   margin-bottom: 1em;
   margin-top: 1em;
@@ -502,12 +505,26 @@ footer {
   padding: 0px;
   background: rgba(236,227,225,1);
   font-size: 1em;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer p {
     margin: auto;
 }
-
+.section1 {
+  grid-row: 8 / span 22;
+  grid-column: 1 / span 10;
+  background: linear-gradient( rgba(156, 242, 255, 0.8), rgba(153, 211, 156, 0.8));
+  z-index: -1;
+  
+}
+.section2 {
+  background: linear-gradient(rgba(153, 211, 156, 0.8), rgba(156, 242, 255, 0.8));
+  
+  z-index: -1;
+  grid-row: 30 / span 30;
+  grid-column: 1 / span 10;
+}
 .block_links{
 margin:1em;
 
@@ -1064,11 +1081,11 @@ input[type=submit]:hover {
 @media screen and (min-width: 767px){
   
   .fun1, .fun2, .fun3, .fun4, .fun5, .fun6, .fun7, .fun8, .fun9{
-    opacity: 0.7;
+    opacity: 1;
   }
   .fun1:hover , .fun1:focus, .fun2:hover, .fun2:focus, .fun3:hover, .fun3:focus, .fun4:hover, .fun4:focus, .fun5:hover, .fun5:focus, .fun6:hover, .fun6:focus, .fun7:hover, .fun7:focus, .fun8:hover, .fun8:focus, .fun9:hover, .fun9:focus{
     transition: 2s all;
-    opacity: 1;
+    opacity: 0.6;
   }
 
   .fun1{
@@ -1682,10 +1699,7 @@ nav {
   box-shadow: none;
   
 }
-.project img {
-  
-  box-shadow: 1px 3px 6px 1px rgba(0.3, 0.3, 0.3, 0.6);
-}
+
 .request{
 
   grid-row:16 / span 2;
@@ -1774,20 +1788,7 @@ nav {
       margin-left: 0;
       padding: 0;
     }
-    .section1 {
-      grid-row: 8 / span 22;
-      grid-column: 1 / span 10;
-      background: linear-gradient( rgba(156, 242, 255, 0.6), rgba(153, 211, 156, 0.6));
-      z-index: -1;
-      
-    }
-    .section2 {
-      background: linear-gradient(rgba(153, 211, 156, 0.6), rgba(156, 242, 255, 0.6));
-      
-      z-index: -1;
-      grid-row: 30 / span 30;
-      grid-column: 1 / span 10;
-    }
+   
 
 }
 @media (prefers-reduced-motion) {
