@@ -1656,7 +1656,7 @@ nav {
       justify-items: center;
       grid-column: 6 / span 4;
       grid-row: 50 / span 2;
-      margin-left: 6em;
+      margin-left: 3em;
      
     }
     .info2{
@@ -1665,7 +1665,7 @@ nav {
       justify-content: center;
       grid-column: 2 / span 4;
       grid-row: 50 / span 2;
-      margin-left: 2.5em;
+      margin-left: 1em;
       
     }
     .credibly_info{
@@ -1684,8 +1684,8 @@ nav {
     }
     
     video {
-      width: 500px;
-      height: 500px;
+      width: 400px;
+      height: 400px;
       margin-bottom: -0.25em;
       justify-content: center;
     }
@@ -1933,6 +1933,32 @@ nav {
     }
    
 
+}
+@media screen and (min-width: 1400px){
+
+  video {
+      width: 500px;
+      height: 500px;
+    }
+    .info3{
+      font-size: 0.5em;
+      margin-bottom: 2em;
+      justify-content: center;
+      grid-column: 6 / span 4;
+      grid-row: 50 / span 2;
+      
+     
+    }
+    .info2{
+      font-size: 0.5em;
+      margin-bottom: 2em;
+      justify-content: center;
+      grid-column: 2 / span 4;
+      grid-row: 50 / span 2;
+      margin-right: 1em;
+      
+    }  
+  
 }
 @media (prefers-reduced-motion) {
   .vertically:hover, .spin, .bounce-7:hover {
