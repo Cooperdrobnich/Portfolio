@@ -1878,7 +1878,7 @@ nav {
   grid-row: 48 / span 2;
   grid-column: 3 / span 5;
   font-size: 0.4em;
-  margin-bottom: 1em;
+  
   margin-top: 2em;
   z-index: 2;
 }
@@ -1886,12 +1886,12 @@ nav {
   grid-row: 49 / span 2;
   grid-column: 4 / span 6;
   font-size: 0.4em;
-  margin-bottom: 5em;
+  margin-top: 5em;
   
-  z-index: 2;
+  
 }
 .sign_ground{
-  grid-row: 48 / span 1;
+  grid-row: 48 / span 2;
   grid-column: 5 / span 5;
   font-size: 0.4em;
   z-index: 1;
