@@ -25,7 +25,7 @@
   color: #be6e68;
   text-decoration: none;
 }
-.paper_link:hover, .paper_link:focus, a:focus{
+.paper_link:hover, .paper_link:focus{
   color: #be6e68;
   text-decoration: underline;
 }
