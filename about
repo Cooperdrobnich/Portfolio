@@ -39,13 +39,13 @@
         <a class = "skip skip-background" href="#main">Skip to Main Content</a>
         <nav>
             <ul class="Menu-list" >
-                <li class="nav_item"><a href="cooper.html">COOPER</a><li>
+                <li class="nav_item"><a href="home">COOPER</a><li>
             </ul>
                 <ul class="nav">
-                    <li class="nav_item"><a href="work.html">Work</a></li>
-                    <li class="nav_item"><a href="projects.html">Projects</a></li>
-                    <li class="nav_item"><a id="current" href="about.html">About</a></li>
-                    <li class="nav_item"><a href="fun.html">Fun</a></li>
+                    <li class="nav_item"><a href="work">Work</a></li>
+                    <li class="nav_item"><a href="projects">Projects</a></li>
+                    <li class="nav_item"><a id="current" href="about">About</a></li>
+                    <li class="nav_item"><a href="fun">Fun</a></li>
                 </ul>
         </nav>
         <main class="container">
