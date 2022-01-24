@@ -1663,7 +1663,7 @@ nav {
     } 
   
   .cooper_link{
-    grid-column: 1 / span 4;
+    grid-column: 2 / span 3;
     grid-row: 1 / span 2;
     color: rgb(255, 255, 255);
     background: rgb(252, 97, 25);
@@ -1671,7 +1671,7 @@ nav {
     border-radius: 20px;
     
      margin-bottom: 2em;
-     font-size:3em;
+     font-size:2em;
     grid-column-gap: 1em;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 53px 0 rgba(0, 0, 0, 0.19);
     
@@ -1690,11 +1690,11 @@ nav {
 
   .adams_link{
     
-    grid-column: 5 / span 4;
+    grid-column: 5 / span 3;
     grid-row: 1 / span 2;
     color: #4A2511;
     font-family: "solway", "serif";
-    font-size: 3em;
+    font-size: 2em;
     background: #ffffff;
     border-radius: 20px;
     transition: 2s;
