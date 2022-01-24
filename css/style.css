@@ -632,6 +632,9 @@ body{
    /* transform: rotate(3grad); */ 
    /* transform: rotate(.03turn);  */
 }
+.cooper_link .spin{
+  
+}
 
 .credibly_block{
   font-size: 0.3em;
@@ -2074,4 +2077,4 @@ nav {
   }
   
 }
-}
+
