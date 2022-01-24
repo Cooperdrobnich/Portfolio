@@ -911,7 +911,7 @@ margin:0;
 
 .fun_picture{
   background-image: url(../images/IMG-7309.JPG);
-  background-color: #1da8d3;
+  background-color: rgb(100, 178, 202);
   background-position: center;
   background-size: cover; 
   background-repeat: no-repeat;
@@ -921,7 +921,7 @@ margin:0;
   grid-row: 1 / span 7;
   display: block;
   min-height: 600px;
-  border-bottom: 8px solid rgb(156, 192, 255);
+  border-bottom: 8px solid rgb(100, 178, 202);
   margin-top: 2em;
 }
 
@@ -929,7 +929,7 @@ margin:0;
 
   grid-column: 1 / span 6;
   grid-row: 6 / span 1;
-  background-color: rgb(156, 192, 255);
+  background-color: rgb(100, 178, 202);
   padding: 0.6em;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
   border-radius: 50px;
@@ -1016,7 +1016,7 @@ img{
 .fun1{
   grid-column: 2 / span 8;
   grid-row: 14 / span 4;
-  border: 5px solid rgb(156, 192, 255);
+  border: 5px solid rgb(100, 178, 202);
   margin-bottom: 1em;
   
   
@@ -1025,42 +1025,42 @@ img{
 .fun2{
   grid-column: 2 / span 8;
   grid-row: 18 / span 4;
-  border: 5px solid rgb(156, 192, 255);
+  border: 5px solid rgb(100, 178, 202);
   margin-bottom: 1em;
 }
 
 .fun3{
   grid-column: 2 / span 8;
   grid-row: 22 / span 4;
-  border: 5px solid rgb(156, 192, 255);
+  border: 5px solid rgb(100, 178, 202);
   margin-bottom: 1em;
 }
 
 .fun4{
   grid-column: 2 / span 8;
   grid-row: 26 / span 4;
-  border: 5px solid rgb(156, 192, 255);
+  border: 5px solid rgb(100, 178, 202);
   margin-bottom: 1em;
 }
 
 .fun5{
   grid-column: 2 / span 8;
   grid-row: 30 / span 4;
-  border: 5px solid rgb(156, 192, 255);
+  border: 5px solid rgb(100, 178, 202);
   margin-bottom: 1em;
 }
 
 .fun6{
   grid-column: 2 / span 8;
   grid-row: 34/ span 4;
-  border: 5px solid rgb(156, 192, 255);
+  border: 5px solid rgb(100, 178, 202);
   margin-bottom: 1em;
 }
 
 .fun7{
   grid-column: 2 / span 8;
   grid-row: 38 / span 3;
-  border: 5px solid rgb(156, 192, 255);
+  border: 5px solid rgb(100, 178, 202);
   margin-bottom: 1em;
   height: min-content;
 }
@@ -1068,14 +1068,14 @@ img{
 .fun8{
   grid-column: 2 / span 8;
   grid-row: 42 / span 4;
-  border: 5px solid rgb(156, 192, 255);
+  border: 5px solid rgb(100, 178, 202);
   margin-bottom: 1em;
 }
 
 .fun9{
   grid-column: 2 / span 8;
   grid-row: 46 / span 4;
-  border: 5px solid rgb(156, 192, 255);
+  border: 5px solid rgb(100, 178, 202);
   margin-bottom: 2em;
   max-width: 100%;
   height: auto;
@@ -1108,7 +1108,7 @@ video {
   grid-row: 56 / span 4;
   justify-self: center;
   margin-bottom: 1em;
-  border: 5px solid rgb(156, 192, 255);
+  border: 5px solid rgb(100, 178, 202);
 }
 
 .video2{
@@ -1116,7 +1116,7 @@ video {
   grid-row: 62 / span 4;
   justify-self: center;
   margin-bottom: 1em;
-  border: 5px solid rgb(156, 192, 255);
+  border: 5px solid rgb(100, 178, 202);
 }
 
 .info3{
@@ -1407,7 +1407,7 @@ input[type=submit]:hover {
   }
   .fun_button{
     grid-column: 2 / span 3;
-    background-color:rgb(156, 192, 255);
+    background-color:rgb(100, 178, 202);
   }
   .credibly_button{
     grid-column: 2 / span 3;
@@ -1532,7 +1532,7 @@ nav {
   .fun_picture{
     background-image: url(../images/IMG-7309.JPG);
     background-attachment: fixed; /* Parallax effect */
-    background-color: rgb(156, 192, 255);
+    background-color: rgb(100, 178, 202);
     background-size: cover; /* Parallax effect */
     background-repeat: no-repeat;
     width: 100%;
@@ -1550,7 +1550,7 @@ nav {
     grid-column: 2 / span 2;
     grid-row: 6 / span 1;
     margin-bottom: 1.3em;
-    background-color:rgb(156, 192, 255);
+    background-color:rgb(100, 178, 202);
     padding: 0.6em;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
     border-radius: 50px;
