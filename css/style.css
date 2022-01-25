@@ -538,7 +538,7 @@ main {
   color: rgb(40, 37, 37);
   font-size: 3em;
   width: 100%;
-  font-family: "Work Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif
+  font-family: "Work Sans", "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif
 
 }
 body{
@@ -549,7 +549,7 @@ body{
 .home_body p {
   color: #352e2e;
   font-size: 1em;
-  font-family: "Work Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 
@@ -632,13 +632,11 @@ body{
    /* transform: rotate(3grad); */ 
    /* transform: rotate(.03turn);  */
 }
-.cooper_link .spin{
-  
-}
+
 
 .credibly_block{
   font-size: 0.3em;
-  font-family: 'Gruppo';
+  font-family: 'Work Sans'
   
   
 }
@@ -649,7 +647,7 @@ body{
 .adams_block{
   
   font-size: 0.3em;
-  font-family: 'Gruppo';
+  font-family: 'Work Sans';
   margin: auto;
   display: block;
 }
