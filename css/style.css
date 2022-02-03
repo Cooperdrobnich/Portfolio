@@ -2035,6 +2035,9 @@ nav {
   .sketch_logo{
     grid-column: 3 / span 6;
   }
+  .ptsa{
+    grid-column: 3 / span 6;
+  }
 }
    
   
