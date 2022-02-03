@@ -2016,9 +2016,7 @@ nav {
     margin-bottom: 0.4em;
     padding: 0.5em;
   }
-  .sketch_logo{
-    grid-column: 3 / span 6;
-  }
+  
   
     
      
@@ -2033,6 +2031,9 @@ nav {
     display: block;
     margin-bottom: 0.4em;
     padding:1em;
+  }
+  .sketch_logo{
+    grid-column: 3 / span 6;
   }
 }
    
