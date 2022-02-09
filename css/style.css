@@ -608,7 +608,14 @@ h1 a{
   
 }
 
-
+.about_links{
+  text-decoration: none;
+  color: #d87e77;
+}
+.about_links{
+  text-decoration: underline;
+  color: #e78e88;
+}
 
 /* Main */
 main {
