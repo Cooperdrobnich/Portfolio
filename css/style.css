@@ -1242,6 +1242,7 @@ input[type=text], select, textarea {
   margin-bottom: 16px; 
   resize: vertical;
   color: #000000;
+  
 }
 input p{
   color: #000000;
@@ -1260,6 +1261,8 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #d87e77;
   opacity: 0.5;
+  border: 2px solid #0e0e0e;
+  transition: 0.3s;
 }
 #subject{
   height: 200px;
