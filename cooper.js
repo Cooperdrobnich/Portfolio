@@ -11,14 +11,19 @@ $(document).ready(function() {
 	
 	setTimeout(function(){
 		$(".fade-in").addClass('appear');
-	}, 1900);
+	}, 1700);
 	
 });
 
-$(document).scroll(function() {
+$(document).scroll(function(appearOptions) {
 	
 	setTimeout(function(){
 		$(".slide-in").addClass('appear');
 	}, 400);
 	
 });
+
+const appearOptions = {
+	threshold: 0,
+	rootMargin: "0px 0px -250px 0px"
+  };
