@@ -1,4 +1,11 @@
-
+.cred_link{
+  text-decoration: none;
+  color: rgb(255, 127, 80);
+}
+.cred_link:hover{
+  text-decoration: underline;
+  color: rgb(255, 127, 80);
+}
 .ex1 img{
   margin-top: 1em;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.19);
@@ -166,7 +173,7 @@ script{
       top: 0;
       width: 51%;
       height: 100%;
-      background: rgba(236,227,225,1);
+      background: rgb(0, 0, 0);
       z-index: 1000;
       -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
       -ms-transform: translateX(0);  /* IE 9 */
@@ -216,7 +223,9 @@ script{
               transition: all 0.3s 1s ease-out;
   }
 
-
+.project_text{
+  color:rgb(0, 0, 0);
+}
 
 .project img {
   
@@ -437,12 +446,35 @@ p a:hover{
 }
 .mich{
   text-decoration: none;
-  color: #be6e68;
+  color: #1f6af5;
 }
+.whoami{
+  text-decoration: none;
+  color: #ffe600;
+}
+.whoami:hover{
+  text-decoration: none;
+  color: #1f6af5;
+  transition: 2s;
+}
+
+
 .mich:hover{
-  text-decoration: underline;
-  color: #be6e68;
+  
+  color: #ffe600;
+  transition: 2s;
 }
+.resume{
+  text-decoration: underline;
+  color: #1f6af5;
+}
+.resume:hover{
+  color: #ffe600;
+  
+  transition: 2s;
+}
+
+  
 
 html, body{
 
@@ -474,7 +506,7 @@ height: 100vh;
 nav {
   width: 100%;
   padding-bottom: 1em;
-  background: rgba(236,227,225,1);
+  background: rgb(0, 0, 0);
   padding-top: 0.2em;
   font-size: 0.8em;
   position: fixed;
@@ -498,7 +530,7 @@ nav ul{
   padding-bottom: 1em;
 }
 .nav_item a{
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
   font-family: 'Russo One',sans-serif;
   font-size: 1.5em;
@@ -508,23 +540,24 @@ nav ul{
 
 .nav_item a:hover{
   transition: all .3s ease-in-out;
-  color: #945551;
+  color: #000000;
   opacity: 1;
-  border-radius: 20px;
-  background: rgb(226, 216, 214);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
 }
 
 footer a{
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
 }
 
 footer a:hover{
   transition: all .3s ease-in-out;
-  color: #945551;
+  color: #000000;
   opacity: 1;
-  border-radius: 20px;
-  background: rgb(226, 216, 214);
+  border-radius: 10px;
+  padding: 0.3em;
+  background: rgb(255, 255, 255);
 }
 
 h1 a{
@@ -533,11 +566,18 @@ h1 a{
   text-align: center;
 }
 #current {
-  color: #945551;
+  color: #000000;
   opacity: 1;
-  
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
 }
-
+#current:hover{
+  transition: all .3s ease-in-out;
+  color: #000000;
+  opacity: 1;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+}
 
 .Menu-list {
   font-size: 1.2em;
@@ -555,19 +595,19 @@ h1 a{
 
 /* Main */
 main {
-  color: rgb(40, 37, 37);
+  color: rgb(255, 255, 255);
   font-size: 3em;
   width: 100%;
   font-family: "Work Sans", "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
  
 }
 body{
-  background: rgba(236,227,225,0.6);
+  background: rgb(0, 0, 0);
 }
 
 
 .home_body p {
-  color: #352e2e;
+  color: #ffffff;
   font-size: 1em;
   font-family: "Work Sans", sans-serif;
 
@@ -590,7 +630,7 @@ body{
 
 #intro{
   grid-row: 2 / span 2;
-  grid-column: 4 / span 4;
+  grid-column: 2 / span 8;
   margin-top: 3em;
   margin-bottom: 0.5em;
   margin-right: 0.5em;
@@ -629,7 +669,7 @@ body{
 .home_body h1 {
   margin-top: 3em;
   font-size: 1.5em;
-  
+  color
   
   
 }
@@ -691,14 +731,14 @@ footer {
   flex-flow: column wrap;
   justify-content: center;
   width:100%;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   min-height: 3em;
   position: relative;
   left: 0;
   bottom: 0vh;
   
-  background: rgba(236,227,225,1);
+  background: rgb(22, 22, 22);
   
   font-family: "Work Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -1176,12 +1216,16 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px; 
   resize: vertical;
+  color: #000000;
+}
+input p{
+  color: #000000;
 }
 
 
 input[type=submit] {
   background-color: #d87e77;
-  color: white;
+  color: black;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -1208,7 +1252,7 @@ input[type=submit]:hover {
   margin-bottom: 2em;
   justify-content: center;
   border: 1px solid #d87e77;
-  
+  color: #000000;
 }
 .more_fun{
   margin-top: 2em;
@@ -1444,7 +1488,7 @@ input[type=submit]:hover {
 nav {
   width: 100%;
   padding-bottom: 1em;
-  background: rgba(236,227,225,1);
+  background: rgb(0, 0, 0);
   padding-top: 0.2em;
   font-size: 0.8em;
   position: fixed;
@@ -1735,7 +1779,7 @@ nav {
     nav {
       width: 100%;
       padding-bottom: 1em;
-      background: rgba(236,227,225,1);
+      background: rgb(0, 0, 0);
       padding-top: 0.2em;
       font-size: 0.8em;
       position: fixed;
@@ -1790,7 +1834,7 @@ nav {
       grid-column: 3 / span 6;
     }
     .about_info1{
-      grid-column: 2 / span 8
+      grid-column: 2 / span 8;
     }
 
     .home_body{
