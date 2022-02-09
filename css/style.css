@@ -1,3 +1,19 @@
+.fade-in{
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+.fade-in.appear {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+
+
+
 .cred_link{
   text-decoration: none;
   color: rgb(255, 127, 80);
@@ -669,7 +685,7 @@ body{
 .home_body h1 {
   margin-top: 3em;
   font-size: 1.5em;
-  color
+  
   
   
 }
@@ -768,6 +784,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-template-rows: auto;
 margin-left: 1em;
 margin-right: 1em;
+
 }
 
 
@@ -1736,9 +1753,9 @@ nav {
     background: rgb(252, 97, 25);
     
     border-radius: 20px;
-    
-     margin-bottom: 2em;
-     font-size:2em;
+    transition: 2s;
+    margin-bottom: 2em;
+    font-size:2em;
     grid-column-gap: 1em;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 53px 0 rgba(0, 0, 0, 0.19);
     
@@ -1753,7 +1770,18 @@ nav {
     padding: 0.3em;
   }
   
-  
+  .adams_link, .cooper_link{
+    transition: opacity 400ms ease-in, -webkit-transform 400ms ease-in;
+    transition: opacity 400ms ease-in, transform 400ms ease-in;
+    transition: opacity 400ms ease-in, transform 400ms ease-in,
+    -webkit-transform 400ms ease-in;
+    opacity: 0;
+  }
+  .adams_link.appear, .cooper_link.appear{
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
 
   .adams_link{
     

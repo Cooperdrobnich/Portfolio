@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Solway:wght@400;500&display=swap">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
@@ -33,14 +33,13 @@
     });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
     <script type="text/javascript" src="cooper.js"></script>
     
     
     <title>Home</title>
   </head>
-  <body >
+  <body>
+    <script src="observers.js"></script>
     <div id="loader-wrapper">
     <div id="loader"></div>
     <div class="loader-section section-left"></div>
@@ -59,7 +58,7 @@
                 </ul>
         </nav>
         <main class="intro_background">
-          <div class="home_body">
+          <div class="home_body slide-in">
           <h1 id="intro">Hello, I'm <a class="mich"href="about.html">Cooper Drobnich</a></h1>
             <br>
             <p id="intro2">User Experience Design student at <a class="whoami"href="https://www.si.umich.edu/" target="_blank" >the University of Michigan.</a></p>
@@ -68,11 +67,11 @@
             <p id="intro4">You can find my work and projects below, as well as my resume <a class="resume"href="https://drive.google.com/file/d/1j_lrebGhRPuSQDREjQd7X3pi9Mtq5wkm/view?usp=sharing" target="_blank">here</a>.</p>
           </div>
           <div class="block_links"> 
-            <a class=" vertically cooper_link" href="work.html"><div class="credibly_block"><img class="spin" src="images/cred_logo.png" alt="Credibly company logo" class="logo_scale"/><p>Credibly</p><p>UX Internship</p></div>
+            <a class=" vertically slide-in cooper_link" href="work.html"><div class="credibly_block"><img class="spin" src="images/cred_logo.png" alt="Credibly company logo" class="logo_scale"/><p>Credibly</p><p>UX Internship</p></div>
            
             </a>
             
-            <a class="vertically adams_link" href="projects.html">A<div class="adams_block"><p>LED Logo</p><p>Community Project</p></div>
+            <a class="vertically slide-in adams_link" href="projects.html">A<div class="adams_block"><p>LED Logo</p><p>Community Project</p></div>
             
             </a>
           </div>
